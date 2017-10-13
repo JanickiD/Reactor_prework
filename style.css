@@ -1,0 +1,74 @@
+body {
+  background-color: 	#A9A9A9;
+  }
+
+#HEAD{
+  width: 100%;
+  height: 320px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image:url("almma/head.jpeg");
+  background-color: black;
+}
+
+
+#MENU, ul li {
+	display: block;
+	list-style: none;
+	margin-left:0 ;
+	padding: 0;
+}
+
+#MENU  li {
+  width: 16.5%;
+	float:left;
+	border-width: 1px 1px 1px 1px;
+	border-style: double;
+	border-color: transparent #2F4F4F #2F4F4F #696969
+}
+
+#MENU a:link, a:visited{
+  text-decoration: none;
+  display:block;
+	min-width: 200px;
+	text-align: center;
+	padding: 10px;
+	font-weight: bold;
+	background-color: 	#2F4F4F;
+	color: #def;
+}
+
+#MAIN{
+  min-height: 600px;
+
+
+}
+#CONTENT{
+    float: left;
+    width: 75%;
+    min-height: inherit;
+
+}
+
+#PARTNERS{
+  float: right;
+  width: 23%;
+  min-height: inherit;
+  border-style: double;
+  padding: 0px;
+
+}
+
+h1{
+  align-items: center;
+  width: 90%
+  border: 100px;
+  font-size: 20px;
+  color: white;
+  padding: 10px;
+  background-color: #2F4F4F;
+}
+#PARTN_LIST li {
+  width: 100%;
+  padding-top: 2px;
+}
