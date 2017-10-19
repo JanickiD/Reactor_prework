@@ -7,13 +7,13 @@ body {
   height: 320px;
   background-repeat: no-repeat;
   background-position: center;
-  background-image:url("almma/head.jpeg");
+  background-image:url("img/head.jpeg");
   background-color: black;
 }
 
 
 #MENU, ul li {
-	display: block;
+	display:block;
 	list-style: none;
 	margin-left:0 ;
 	padding: 0;
@@ -44,31 +44,51 @@ body {
 
 }
 #CONTENT{
-    float: left;
+    font-size: 18px;
+    align-content:stretch;
+    float:left;
     width: 75%;
     min-height: inherit;
+    word-wrap: normal;
+    padding: 15px;
 
 }
 
 #PARTNERS{
   float: right;
-  width: 23%;
+  width: 22%;
   min-height: inherit;
   border-style: double;
   padding: 0px;
-
 }
 
 h1{
-  align-items: center;
-  width: 90%
+  width: 90%;
   border: 100px;
   font-size: 20px;
   color: white;
-  padding: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: auto;
   background-color: #2F4F4F;
 }
+
+#PARTN_LIST, ul li {
+	display: grid;
+	list-style: none;
+  padding-left:0;
+  margin: auto;
+}
 #PARTN_LIST li {
-  width: 100%;
-  padding-top: 2px;
+
+  width: 90%;
+  padding-top: 0  px;
+}
+
+#almma_facebook{
+  float: left;
+  border: 2px inset black;
+  width: 500px;
+  height: 500px;
+  overflow:hidden;
 }
